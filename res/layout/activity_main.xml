@@ -63,13 +63,13 @@
         android:layout_below="@+id/imageview2">
         <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="设置端口号，默认5555"
+            android:text="设置端口号，默认5556"
             android:textSize="20sp"
             />
         <EditText android:id="@+id/port"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="5555"
+            android:text="5556"
             android:textSize="20sp"
             />
         
