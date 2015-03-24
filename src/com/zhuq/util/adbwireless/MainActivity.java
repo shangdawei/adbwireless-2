@@ -2,8 +2,8 @@ package com.zhuq.util.adbwireless;
 
 import com.zhuq.util.adbwireless.ShellUtils.CommandResult;
 
-import android.support.v7.app.ActionBarActivity;
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -19,7 +19,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-@SuppressLint("NewApi") public class MainActivity extends ActionBarActivity {
+@SuppressLint("NewApi") public class MainActivity extends Activity {
 
 	private static final String STR_IP = "设备IP:";
 	private static final String STR_STATE = "ADB无线调试状态:";
